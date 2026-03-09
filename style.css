@@ -2,13 +2,13 @@ body{
     font-family: Arial, sans-serif;
     margin: 0;
     line-height: 1.6;
-    background: #ffc929;
+    background: #fafafa;
     color: #111;
 }
 
 header{
-    background: #111;
-    color: white;
+    background: #ffc929;
+    color: #111;
     text-align: center;
     padding: 40px 20px;
 }
@@ -18,21 +18,21 @@ nav{
 }
 
 nav a{
-    color: #ffc929;
+    color: #111;
     margin: 0 15px;
     text-decoration: none;
     font-weight: bold;
 }
 
 nav a:hover{
-    color: white;
+    color: #333;
 }
 
 section{
     max-width: 900px;
     margin: 30px auto;
     padding: 30px 24px;
-    background: rgba(255, 255, 255, 0.35);
+    background: #fafafa;
     border-radius: 12px;
 }
 
@@ -47,7 +47,6 @@ h2{
     border-radius: 0;
     margin-top: 15px;
     display: block;
-    object-fit: contain;
 }
 
 ul{
@@ -65,7 +64,7 @@ a:hover{
 footer{
     text-align: center;
     padding: 20px;
-    background: #111;
-    color: #ffc929;
+    background: #eee;
+    color: #111;
     margin-top: 40px;
 }
